@@ -104,7 +104,11 @@ Use the AWS CLI to sync the lambda code and demo console files to amazon S3:
 
 Launch the updated CloudFormation template from ```deployment/dist/``` folder.
 
+```
+aws cloudformation create-stack --stack-name 'aws-VOD-POC' --region eu-west-2 --template-body file://video-on-demand-on-aws.yaml  --capabilities CAPABILITY_IAM
 
+
+```
 ***
 
 Copyright 2018 Amazon.com, Inc. or its affiliates. All Rights Reserved.

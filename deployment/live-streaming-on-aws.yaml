@@ -143,8 +143,8 @@ Metadata:
 Mappings:
   SourceCode:
     General:
-      S3Bucket: ti-poc-live-apac
-      KeyPrefix: live-streaming-on-aws/1.0.1
+      S3Bucket: aws-live-poc
+      KeyPrefix: live-streaming-on-aws/0.0.1
 
   AnonymousData:
     SendAnonymousData:

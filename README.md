@@ -4,7 +4,6 @@ How to implement Live streaming on AWS  at scale leveraging AWS Elemental MediaL
 
 ## Architecture Overview
 
-![Architecture](architecture.png)
 
 **AWS Elemental MediaLive**<br/>
 Is configured to ingest 2 live feeds and transcode the content into multiple adaptive bitrate HLS content.  The solution can be configured to ingest RTP RTMP and HLS streams and will apply 1 of 3 encoding profiles which include bitrates of 720p through 270p. The encoding profile is set at launch and is based on the source resolution (See Encoding Profiles below).
